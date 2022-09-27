@@ -1,0 +1,22 @@
+.ad-pc_Section { margin: 5px; }
+.ad-pc div { padding-bottom: 0 !important; }
+.closeArea { display: none !important; }
+.ad-pc_Texts { position: relative; top: 0; left: 0; }
+.ad-pc_Texts > span { font-size: 16px; margin: auto; position: absolute; top: 0; right: 0; }
+.ad-pc_Texts > p { font-size: 16px; margin: auto; text-align: right; }
+.ad-pc_Texts > img { left: 0; width: 16px; height: 16px; }
+.ad-pc_Area { border: 2.25px black solid; position: relative; }
+.ad-pc_Frame, .ad-sp_Frame { width: 100% !important; height: 100%; border: none; }
+.ad-sp_Texts { position: relative; top: 0; left: 0; width: 320px; margin: auto; }
+.ad-sp_Texts > p { font-size: 16px; margin: auto 0 auto auto; text-align: right; width: 50px; }
+.ad-sp_Texts > img { top: 5px; left: 0; width: 16px; height: 16px; position: absolute; }
+.ad-sp_Area { border: 2.25px black solid; position: relative; margin: auto; }
+
+@media screen and (max-width: 768px) {
+    .ad-pc { display: none; }
+    .adClear { display: none; }
+}
+@media screen and (min-width: 768px) {
+    .pressAdjust { float:left; width: calc(100% - 325px) !important; margin-right: 10.5px; }
+    .ad-sp { display: none; }
+}
